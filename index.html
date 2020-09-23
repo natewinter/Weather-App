@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="container-fluid text-center text-white bg-dark">
+        <h1>Weather Dashboard </h1>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-md-3 bg-light">
+                <h4>Search for a city:</h4>
+                <div class="form-inline">
+                    <input type="text" class="form-control" id="search">
+                    <button class="btn btn-primary" id="searchBtn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <ul class="list-group" id="cityList"></ul>
+            </aside>
+            <div class="col-md-9">
+                <div id="currentDay">
+                    <!-- city name and current day -->
+                    <div id="city"></div>
+
+                    <!-- temperature  -->
+                    <div id="temperature"></div>
+
+                    <!-- humidity -->
+                    <div id="humidity"></div>
+
+                    <!-- wind speed -->
+                    <div id="windSpeed"></div>
+
+                    <!-- uv index -->
+                    <div id="uvIndex"></div>
+
+                </div>
+                <div id="forecast"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

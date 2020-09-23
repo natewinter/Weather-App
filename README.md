@@ -1,2 +1,7 @@
-# Weather-App
-Weather app that pulls user input and then displays data
+
+
+## User Story
+ as a user i want to be able to see weather information from cities of my choice.
+## Acceptance Criteria
+
+
